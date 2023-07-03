@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshots
 
-![](images/interactive-rating-component-1.jpg)
-![](images/interactive-rating-component-2.jpg)
+![](images/interactive-rating-component-1.JPG)
+![](images/interactive-rating-component-2.JPG)
 
 ## My process
 
