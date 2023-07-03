@@ -7,6 +7,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Design](#design)
   - [Development](#development)
@@ -30,6 +31,10 @@ Users should be able to:
 
 ![](images/interactive-rating-component-1.JPG)
 ![](images/interactive-rating-component-2.JPG)
+
+### Link
+
+- Live Site URL: (https://meek-gaufre-17d8b6.netlify.app/)
 
 ## My process
 
