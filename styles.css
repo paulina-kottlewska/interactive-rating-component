@@ -1,0 +1,158 @@
+:root {
+    /* Colors Primary */
+    --orange: hsl(25, 97%, 53%);
+
+    /* Colors Neutral */
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --very-dark-blue-gradient: hsl(216, 12%, 11%);
+    --rating-containers: hsl(216, 12%, 21%);
+
+    /* Font Family */
+    --font-family: 'Overpass', sans-serif;
+
+    /* Font sizes*/
+    --font-title: 1.4rem;
+    --font-rating: 0.9rem;
+    --font-text: 0.8rem;
+    --font-final-rating: 0.7rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--very-dark-blue);
+    font-family: var(--font-family);
+    display: grid;
+    place-content: center;
+}
+
+.container, .thank-you-container {
+    width: 335px;
+    height: 345px;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    background-image: linear-gradient(to top, var(--very-dark-blue-gradient), var(--dark-blue));
+    color: var(--white);
+    border-radius: 1em;
+}
+
+.thank-you-container {
+    text-align: center;
+    display: none;
+}
+
+.star-container, .rating {
+    width: 40px;
+    height: 40px;
+    background-color: var(--rating-containers);
+    border-radius: 50%;
+    padding: 0.85em;
+    box-shadow: 0 3px 10px (0, 0, 0, 0.2);
+}
+
+.star-container {
+    display: grid;
+    place-content: center;
+}
+
+.star {
+  width: 100%;
+}
+
+.rating-container {
+    margin-top: 2em;
+    color: var(--light-grey);
+    font-size: var(--font-rating);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4em;
+}
+
+.rating {
+    font-family: var(--font-family);
+    font-size: var(--font-rating);
+    color: var(--light-grey);
+    border: none;
+}
+
+.rating:hover {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.rating:focus {
+    background-color:  var(--orange);
+    color: var(--white);
+}
+
+.thank-you-img {
+    width: 40%;
+    margin-top: 1em;
+}
+
+.title {
+    margin-top: 1em;
+    font-size: var(--font-title);
+    font-weight: bold;
+}
+
+.selected-rating {
+    width: 160px;
+    height: 25px;
+    margin: 2em auto;
+    background-color: var(--rating-containers);
+    color: var(--orange);
+    font-size: var(--font-final-rating);
+    line-height: 28px;
+    gap: 0.2em;
+    border-radius: 3em;
+}
+
+.text {
+    font-size: var(--font-text);
+    color: var(--light-grey);
+    line-height: 1.5em;
+}
+
+.thank-you {
+    margin: 1.4em 0 0;
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+    margin: 2em 0 0;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color: var(--white);
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 3em;
+}
+
+.submit:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.attribution {
+    font-size: var(--font-final-rating);
+    text-align: center;
+    color: var(--light-grey);
+}
+
+.attribution a {
+    color: var(--white);
+}
