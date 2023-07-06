@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: (https://meek-gaufre-17d8b6.netlify.app/)
+- Live Site URL: (https://interactive-rating-component-pk.netlify.app/)
 
 ## My process
 
